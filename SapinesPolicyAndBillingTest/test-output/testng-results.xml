@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-13T18:57:21 IST" name="Sapiens Adaptik Policy and Billing Pro Apps Sanity Run Suite" finished-at="2022-02-13T19:00:15 IST" duration-ms="174256">
+    <groups>
+    </groups>
+    <test started-at="2022-02-13T18:57:21 IST" name="SanityDryRun" finished-at="2022-02-13T19:00:15 IST" duration-ms="174256">
+      <class name="com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T18:58:11 IST" name="setupTest" finished-at="2022-02-13T18:59:02 IST" duration-ms="51157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="SearchPageTitleTest()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T18:59:02 IST" name="SearchPageTitleTest" finished-at="2022-02-13T18:59:02 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPageTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T18:59:02 IST" name="closeBrowser" finished-at="2022-02-13T18:59:03 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T18:59:04 IST" name="setupTest" finished-at="2022-02-13T18:59:36 IST" duration-ms="31493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="AccountSearch(java.lang.String)[pri:1, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T18:59:36 IST" name="AccountSearch" data-provider="getTestData" finished-at="2022-02-13T18:59:38 IST" duration-ms="2464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[405300001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T18:59:38 IST" name="closeBrowser" finished-at="2022-02-13T18:59:39 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T18:59:39 IST" name="setupTest" finished-at="2022-02-13T19:00:12 IST" duration-ms="33323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="AccountSearch(java.lang.String)[pri:1, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T19:00:12 IST" name="AccountSearch" data-provider="getTestData" finished-at="2022-02-13T19:00:14 IST" duration-ms="2303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[126300001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest@4d154ccd]" started-at="2022-02-13T19:00:14 IST" name="closeBrowser" finished-at="2022-02-13T19:00:15 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest -->
+      <class name="com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest@26e356f0]" started-at="2022-02-13T18:57:21 IST" name="setupTest" finished-at="2022-02-13T18:57:29 IST" duration-ms="8113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest@26e356f0]" started-at="2022-02-13T18:57:29 IST" name="loginPageTitleTest" finished-at="2022-02-13T18:57:29 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest@26e356f0]" started-at="2022-02-13T18:57:29 IST" name="tearDownTest" finished-at="2022-02-13T18:57:29 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest@26e356f0]" started-at="2022-02-13T18:57:29 IST" name="setupTest" finished-at="2022-02-13T18:57:38 IST" duration-ms="8792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="loginTest()[pri:1, instance:com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest@26e356f0]" started-at="2022-02-13T18:57:38 IST" name="loginTest" finished-at="2022-02-13T18:58:07 IST" duration-ms="28581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest@26e356f0]" started-at="2022-02-13T18:58:07 IST" name="tearDownTest" finished-at="2022-02-13T18:58:11 IST" duration-ms="4668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest -->
+    </test> <!-- SanityDryRun -->
+  </suite> <!-- Sapiens Adaptik Policy and Billing Pro Apps Sanity Run Suite -->
+</testng-results>
