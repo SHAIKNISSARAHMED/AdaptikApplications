@@ -20,7 +20,7 @@ import com.adaptikPolicyAndBilling.qa.base.TestBase;
 
 public class TestUtil extends TestBase{
 
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\Shaik.Ahmed\\eclipse-workspace\\JavaLearnings\\TeluskoLearnings\\SapinesPolicyAndBillingTest\\src\\main\\java\\com\\adaptikPolicyAndBilling\\qa\\testdata\\BillingTestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\Shaik.Ahmed\\git\\AdaptikApplications\\SapinesPolicyAndBillingTest\\src\\main\\java\\com\\adaptikPolicyAndBilling\\qa\\testdata\\BillingTestData.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;

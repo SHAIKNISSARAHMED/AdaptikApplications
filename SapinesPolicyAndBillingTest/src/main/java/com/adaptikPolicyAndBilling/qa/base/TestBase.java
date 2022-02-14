@@ -1,5 +1,7 @@
 package com.adaptikPolicyAndBilling.qa.base;
 
+
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -7,10 +9,15 @@ import java.time.Duration;
 import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.chromium.ChromiumDriver;
+import org.openqa.selenium.chromium.ChromiumOptions;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import com.gargoylesoftware.htmlunit.BrowserVersion;
 
 
 public class TestBase {
-public static WebDriver driver;
+public static WebDriver  driver;
 public static Properties prop;
 	
 	public TestBase(){
@@ -18,7 +25,7 @@ public static Properties prop;
 		
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\Shaik.Ahmed\\eclipse-workspace\\JavaLearnings\\TeluskoLearnings\\SapinesPolicyAndBillingTest\\src\\main\\java\\com\\adaptikPolicyAndBilling\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\Shaik.Ahmed\\git\\AdaptikApplications\\SapinesPolicyAndBillingTest\\src\\main\\java\\com\\adaptikPolicyAndBilling\\qa\\config\\config.properties");
 		try {
 			prop.load(ip);
 		} catch (IOException e) {
@@ -39,12 +46,24 @@ public static Properties prop;
 	 if(browserName.equals("Chrome")) {
 		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shaik.Ahmed\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		 
-		 driver = new ChromeDriver();
-		 System.out.print("Initialized webDriver");
+//		 driver = new ChromeDriver();
+
+		 System.out.print("Initialized Chrome Browser");
+	 }
+	 
+	 else if(browserName.equals("headless")) {
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shaik.Ahmed\\Downloads\\chromedriver_win32\\chromedriver.exe");
+//		 driver = new HtmlUnitDriver(BrowserVersion.CHROME);
+		 ChromeOptions options = new ChromeOptions();
+		 options.addArguments("window-size=1400,800");
+		 options.addArguments("headless");
+		
+		 driver = new ChromeDriver(options);
+		 System.out.println("Running On HeadLessMode");
 	 }
 	 
 	 else {
-		 System.out.println("Browser Not Supported for Current Code");
+		 System.out.println("Invalid BrowserName in config file");
 	 }
 	 
 //	 e_driver = new EventFiringWebDriver(driver);
@@ -53,7 +72,7 @@ public static Properties prop;
 //		e_driver.register(eventListener);
 //		driver = e_driver;
 	 driver.manage().window().maximize();
-	 //driver.manage().deleteAllCookies();
+	 driver.manage().deleteAllCookies();
 	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	 driver.get(prop.getProperty("url"));
 	 

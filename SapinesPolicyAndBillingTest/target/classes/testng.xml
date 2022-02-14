@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Sapiens Adaptik Policy and Billing Pro Apps Sanity Run Suite">
+<suite name="Sapiens Adaptik Policy and Billing Pro Apps SmokeTest Run Suite">
     	<listeners>
 		<listener class-name="com.adaptikPolicyAndBilling.qa.ExtentReport.ExtentReportNG" />
 	</listeners>
-    <test name="SanityDryRun">
+    <test name="SmokeTest">
          <classes>
              <class name="com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest"/>
-             <class name="com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest"/>
+           <class name="com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest"/>
           </classes>
      </test> <!-- Test -->
 </suite> <!-- Suite --> 

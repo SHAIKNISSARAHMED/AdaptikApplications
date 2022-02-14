@@ -15,15 +15,15 @@ public class LoginPage extends TestBase {
 //PageFactory i.e Object Repository 
 	
 	@FindBy(name="username")
-	@CacheLookup
+//	@CacheLookup
 	WebElement username;
 	
 	@FindBy(name="password")
-	@CacheLookup
+//	@CacheLookup
 	WebElement password;
 	
 	@FindBy(xpath="//button[@id='submitLogin']")
-	@CacheLookup
+//	@CacheLookup
 	WebElement LoginButton;
 	
 public LoginPage() {
