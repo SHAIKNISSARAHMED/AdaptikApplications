@@ -8,15 +8,79 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Sapiens Adaptik Policy and Billing Pro Apps Sanity Run Suite</th></tr>
-<tr><td><a href="#t0">SanityDryRun</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">247,542</td><td></td><td></td></tr>
+<tr><th colspan="8">Sapiens Adaptik Policy and Billing Pro Apps SmokeTest Run Suite</th></tr>
+<tr><td><a href="#t0">SmokeTest</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">510,197</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Sapiens Adaptik Policy and Billing Pro Apps Sanity Run Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SanityDryRun &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest</td><td><a href="#m0">loginPageTitleTest</a></td><td rowspan="1">1644771644447</td><td rowspan="1">134</td></tr><tr class="passedeven"><td><a href="#m1">loginTest</a></td><td rowspan="1">1644771685205</td><td rowspan="1">38451</td></tr><tr class="passedodd"><td rowspan="3">com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest</td><td><a href="#m2">AccountSearch</a></td><td rowspan="2">1644771859544</td><td rowspan="2">2678</td></tr><tr class="passedodd"><td><a href="#m3">AccountSearch</a></td></tr><tr class="passedodd"><td><a href="#m4">SearchPageTitleTest</a></td><td rowspan="1">1644771764700</td><td rowspan="1">9</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Sapiens Adaptik Policy and Billing Pro Apps SmokeTest Run Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SmokeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest</td><td><a href="#m0">MakeAdjustmentTest</a></td><td rowspan="2">1644865513149</td><td rowspan="2">37429</td></tr><tr class="failedeven"><td><a href="#m1">MakeAdjustmentTest</a></td></tr><tr class="failedodd"><td rowspan="1">com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest</td><td><a href="#m2">AccountSearch</a></td><td rowspan="1">1644865442943</td><td rowspan="1">42</td></tr><tr><th colspan="4">SmokeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest</td><td><a href="#m3">accountDashBoardPageTitleTest</a></td><td rowspan="1">1644865477432</td><td rowspan="1">33</td></tr><tr class="passedodd"><td rowspan="2">com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest</td><td><a href="#m4">loginPageTitleTest</a></td><td rowspan="1">1644865127414</td><td rowspan="1">115</td></tr><tr class="passedodd"><td><a href="#m5">loginTest</a></td><td rowspan="1">1644865140087</td><td rowspan="1">33125</td></tr><tr class="passedeven"><td rowspan="2">com.adaptikPolicyAndBilling.qa.testCases.RemittanceBatchPageTest</td><td><a href="#m6">remittanceBatchDetailsTest</a></td><td rowspan="2">1644865327856</td><td rowspan="2">79046</td></tr><tr class="passedeven"><td><a href="#m7">remittanceBatchDetailsTest</a></td></tr><tr class="passedodd"><td rowspan="1">com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest</td><td><a href="#m8">SearchPageTitleTest</a></td><td rowspan="1">1644865442502</td><td rowspan="1">14</td></tr></tbody>
 </table>
-<h2>SanityDryRun</h2><h3 id="m0">com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest#AccountSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>126300001</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest#AccountSearch</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>405300001</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest#SearchPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SmokeTest</h2><h3 id="m0">com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest#MakeAdjustmentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>496300001</td><td>WO</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;U1_77_Q_30011_3_C_4_C&apos;]&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;INLT1501&apos;, ip: &apos;10.21.204.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afbd716186232db8f2389de8e126d006, findElement {using=xpath, value=//select[@id=&apos;U1_77_Q_30011_3_C_4_C&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\SHAIK~1.AHM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49657/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afbd716186232db8f2389de8e126d006
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:46)
+	at com.adaptikPolicyAndBilling.qa.pages.AdjustmentDetailsPage.clickOnPostAdjustmentButton(AdjustmentDetailsPage.java:30)
+	at com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest.MakeAdjustmentTest(AccountDashBoardTest.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest#MakeAdjustmentTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>596300001</td><td>WO</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@id=&apos;U1_77_Q_30011_3_C_4_C&apos;]&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;INLT1501&apos;, ip: &apos;10.21.204.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [811a2b27dfbc6b4221b4c6ae262d3feb, findElement {using=xpath, value=//select[@id=&apos;U1_77_Q_30011_3_C_4_C&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\SHAIK~1.AHM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49860/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 811a2b27dfbc6b4221b4c6ae262d3feb
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:46)
+	at com.adaptikPolicyAndBilling.qa.pages.AdjustmentDetailsPage.clickOnPostAdjustmentButton(AdjustmentDetailsPage.java:30)
+	at com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest.MakeAdjustmentTest(AccountDashBoardTest.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest#AccountSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.internal.reflect.MethodMatcherException: 
+[public void com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest.AccountSearch(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: AccountSearch([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) 496300001,(java.lang.String) WO]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest#accountDashBoardPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.adaptikPolicyAndBilling.qa.testCases.RemittanceBatchPageTest#remittanceBatchDetailsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>BOFA</td><td>Q</td><td>10000</td><td>1</td><td>322332323221</td><td>A</td><td>596300001</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.adaptikPolicyAndBilling.qa.testCases.RemittanceBatchPageTest#remittanceBatchDetailsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>BOFA</td><td>Q</td><td>10000</td><td>1</td><td>322332323221</td><td>A</td><td>496300001</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest#SearchPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -16,23 +16,23 @@ public class SearchPage extends TestBase {
 
 	
 	@FindBy(xpath="//button/span[contains(text(),'Search')]")
-//	@CacheLookup
+	@CacheLookup
 	WebElement SearchButton;
 	
 	@FindBy(xpath="//button/span[contains(text(),'New Remittance Batch')]")
-//	@CacheLookup
+	@CacheLookup
 	WebElement NewRemittanceBatchButton;
 	
 	@FindBy(xpath="//label[contains(text(),'Account Code')]//ancestor::tr//input[@type='text']")
-//	@CacheLookup
+	@CacheLookup
 	WebElement AccountSearchOverlay_AccountCodeTextField;
 	
 	@FindBy(xpath="//div[@id='ACCT_SEARCH1']//tr//td//button/span/u[contains(text(),'S')]")
-//	@CacheLookup
+	@CacheLookup
 	WebElement AccountSearchOverlay_SearchButton;
 	
 	@FindBy(xpath="//button[contains(text(),'Account Dash')]")
-//	@CacheLookup
+	@CacheLookup
 	WebElement AccountSearchOverlay_AccountDashBoardButton;
 	
 	
@@ -57,10 +57,10 @@ public class SearchPage extends TestBase {
 	}
 	
 	
-	public RemittanceSearchOverLayPage RemittanceSearch() {
+	public RemittanceBatchPage RemittanceSearch() {
 		
 		NewRemittanceBatchButton.click();
-		return new RemittanceSearchOverLayPage();
+		return new RemittanceBatchPage();
 	}
 	
 	

@@ -1,0 +1,10 @@
+com\adaptikPolicyAndBilling\qa\pages\AccountDashBoard.class
+com\adaptikPolicyAndBilling\qa\util\TestUtil.class
+com\adaptikPolicyAndBilling\qa\pages\SearchPage.class
+com\adaptikPolicyAndBilling\qa\pages\RetrunPremiumDetailsPage.class
+com\adaptikPolicyAndBilling\qa\ExtentReport\ExtentReportNG.class
+com\adaptikPolicyAndBilling\qa\pages\AdjustmentDetailsPage.class
+com\adaptikPolicyAndBilling\qa\util\WebEventListener.class
+com\adaptikPolicyAndBilling\qa\base\TestBase.class
+com\adaptikPolicyAndBilling\qa\pages\AdjustmentsPage.class
+com\adaptikPolicyAndBilling\qa\pages\LoginPage.class

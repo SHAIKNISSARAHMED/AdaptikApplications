@@ -6,8 +6,10 @@
 	</listeners>
     <test name="SmokeTest">
          <classes>
-             <class name="com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest"/>
+           <class name="com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest"/>
+           <class name="com.adaptikPolicyAndBilling.qa.testCases.RemittanceBatchPageTest"/>
            <class name="com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest"/>
+           <class name="com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest"/>
           </classes>
      </test> <!-- Test -->
 </suite> <!-- Suite --> 

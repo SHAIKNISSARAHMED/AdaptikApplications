@@ -1,4 +1,38 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 252.447 s - in TestSuite
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 513.963 s <<< FAILURE! - in TestSuite
+AccountSearch(com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest)  Time elapsed: 0.512 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest.AccountSearch(java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: AccountSearch([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) 496300001,(java.lang.String) WO]
+
+MakeAdjustmentTest(com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest)  Time elapsed: 37.432 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='U1_77_Q_30011_3_C_4_C']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'INLT1501', ip: '10.21.204.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [afbd716186232db8f2389de8e126d006, findElement {using=xpath, value=//select[@id='U1_77_Q_30011_3_C_4_C']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\SHAIK~1.AHM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49657/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afbd716186232db8f2389de8e126d006
+	at com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest.MakeAdjustmentTest(AccountDashBoardTest.java:75)
+
+MakeAdjustmentTest(com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest)  Time elapsed: 37.125 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='U1_77_Q_30011_3_C_4_C']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'INLT1501', ip: '10.21.204.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [811a2b27dfbc6b4221b4c6ae262d3feb, findElement {using=xpath, value=//select[@id='U1_77_Q_30011_3_C_4_C']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\SHAIK~1.AHM\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49860/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 811a2b27dfbc6b4221b4c6ae262d3feb
+	at com.adaptikPolicyAndBilling.qa.testCases.AccountDashBoardTest.MakeAdjustmentTest(AccountDashBoardTest.java:75)
+

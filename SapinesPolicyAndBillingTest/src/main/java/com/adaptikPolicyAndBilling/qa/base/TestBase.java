@@ -46,7 +46,7 @@ public static Properties prop;
 	 if(browserName.equals("Chrome")) {
 		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shaik.Ahmed\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		 
-//		 driver = new ChromeDriver();
+		 driver = new ChromeDriver();
 
 		 System.out.print("Initialized Chrome Browser");
 	 }

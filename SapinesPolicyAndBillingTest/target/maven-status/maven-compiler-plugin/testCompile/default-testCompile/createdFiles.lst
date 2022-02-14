@@ -1,0 +1,5 @@
+com\adaptikPolicyAndBilling\qa\testCases\AdjustmentDetailsTest.class
+com\adaptikPolicyAndBilling\qa\testCases\LoginPageTest.class
+com\adaptikPolicyAndBilling\qa\testCases\AccountDashBoardTest.class
+com\adaptikPolicyAndBilling\qa\testCases\AdjustmentsTest.class
+com\adaptikPolicyAndBilling\qa\testCases\SearchPageTest.class

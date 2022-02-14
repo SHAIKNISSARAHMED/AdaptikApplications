@@ -6,22 +6,13 @@
   </listeners>
   <test thread-count="5" name="SmokeTest(failed)">
     <classes>
-      <class name="com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest">
-        <methods>
-          <include name="setupTest"/>
-          <include name="loginTest"/>
-          <include name="tearDownTest"/>
-          <include name="loginPageTitleTest"/>
-        </methods>
-      </class> <!-- com.adaptikPolicyAndBilling.qa.testCases.LoginPageTest -->
-      <class name="com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest">
+      <class name="com.adaptikPolicyAndBilling.qa.testCases.RemittanceBatchPageTest">
         <methods>
           <include name="closeBrowser"/>
+          <include name="remittanceBatchDetailsTest" invocation-numbers="0"/>
           <include name="setupTest"/>
-          <include name="SearchPageTitleTest"/>
-          <include name="AccountSearch"/>
         </methods>
-      </class> <!-- com.adaptikPolicyAndBilling.qa.testCases.SearchPageTest -->
+      </class> <!-- com.adaptikPolicyAndBilling.qa.testCases.RemittanceBatchPageTest -->
     </classes>
   </test> <!-- SmokeTest(failed) -->
 </suite> <!-- Failed suite [Sapiens Adaptik Policy and Billing Pro Apps SmokeTest Run Suite] -->
